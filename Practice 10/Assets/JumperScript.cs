@@ -8,6 +8,6 @@ public class JumperScript : MonoBehaviour
 
         Vector3 direction = (ball.transform.position - transform.position).normalized;
 
-        ball.AddForce(direction * 40f, ForceMode.Impulse);
+        ball.AddForce(direction * 20f, ForceMode.Impulse);
     }
 }
